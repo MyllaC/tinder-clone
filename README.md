@@ -12,8 +12,8 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 - CSS
 
 ## 🔍 Links para suporte
-Ícones: https://fontawesome.com/
-Fonte: https://fonts.google.com/
-Gradiente: https://cssgradient.io/
-Foto: https://unsplash.com/
+- Ícones: https://fontawesome.com/
+- Fonte: https://fonts.google.com/
+- Gradiente: https://cssgradient.io/
+- Foto: https://unsplash.com/
 
