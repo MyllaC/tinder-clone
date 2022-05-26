@@ -1,0 +1,49 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --primary-color: #f5f7fa;
+  --icon-color: #dadfe6;
+}
+body {
+  background: var(--primary-color);
+  height: 100vh;
+  width: 100%;
+
+  font-family: 'Roboto', sans-serif;
+}
+
+/***** NAVBAR ******/
+
+.navbar {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  padding: 10px 0;
+  height: 3rem;
+}
+
+.navbar i {
+  font-size: 1.5rem;
+  color: var(--icon-color);
+}
+
+.navbar i:nth-child(1) {
+  color: #fe466d;
+}
+
+/***** PHOTO AND ACTIONS ******/
+
+.photo-and-actions {
+  height: calc(100vh - 3rem);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.photo {
+  height: 
+}
