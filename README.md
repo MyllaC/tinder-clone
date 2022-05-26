@@ -2,3 +2,4 @@
 
 Ícones: https://fontawesome.com/
 Fonte: https://fonts.google.com/
+Gradiente: https://cssgradient.io/
