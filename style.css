@@ -39,6 +39,12 @@ body {
 .navbar i {
   font-size: 2rem;
   color: var(--icon-color);
+  transition: transform 500ms ease;
+}
+
+.navbar i:hover {
+  cursor: pointer;
+  transform: scale(1.2);
 }
 
 .navbar i:nth-child(1) {
@@ -110,15 +116,25 @@ body {
 }
 
 .action {
+  height: 6rem;
+  width: 6rem;
+
   display: flex;
   align-items: center;
   justify-content: center;
+
   background: #fff;
-  height: 6rem;
-  width: 6rem;
-  border-radius: 50%;
-  font-size: 3rem;
   box-shadow: 0 2px 6px 0 rgba(112, 125, 134, 0.14);
+  border-radius: 50%;
+
+  font-size: 3rem;
+
+  transition: transform 500ms ease;
+}
+
+.action:hover {
+  cursor: pointer;
+  transform: scale(1.2);
 }
 
 .actions .action:nth-child(1) {
@@ -135,4 +151,26 @@ body {
 
 .actions .action:nth-child(3) {
   color: var(--heart-color);
+}
+
+/***** DESKTOP ******/
+/***** 1025px or more ******/
+@media (min-width: 1025px) {
+  .photo {
+    width: 36.7rem;
+    height: 68.4rem;
+  }
+
+  .actions {
+    flex: initial;
+  }
+
+  .photo-and-actions {
+    justify-content: center;
+  }
+
+  .navbar {
+    width: 40rem;
+    margin: auto;
+  }
 }
